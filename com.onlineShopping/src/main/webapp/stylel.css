@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+/* Reset default margin and padding */
+body, h2, form {
+	margin-top:20px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply background color and text styles to the body */
+body {
+	background-image: url("images/Signup.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+	font-family: Arial, sans-serif;
+}
+
+/* Center the Login div */
+.Login {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the h2 header */
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Style the labels and inputs */
+label {
+    display: block;
+    margin: 10px 0;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px 10px 10px 2px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the login button */
+#sub {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Add some spacing for readability */
+br {
+    margin: 10px 0;
+}
+
+/* Style the "New user? Register here" link */
+a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #007BFF;
+}
